@@ -170,3 +170,26 @@ body{
     text-decoration: none;
 
 }
+.container5{
+    display: flex;
+    color: white;
+}
+.aprendi2{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 218, 18);
+
+}
+.container6{
+    display: flex;
+    color: white;
+}
+.aprendi4{
+    text-shadow: 5px 5px 5px rgb(0, 225, 255);
+
+
+}
+.saiba{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 38, 255);
+}
