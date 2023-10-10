@@ -1,0 +1,172 @@
+
+
+body{
+    background-color: black;
+}
+
+.tit{
+    text-shadow: 5px 5px 5px rgb(0, 38, 255);
+    text-align: center;
+}
+.tit2{
+    text-shadow: 5px 5px 5px rgb(0, 255, 21);
+    text-decoration: none;
+
+}
+
+
+.anik{
+    color: white;
+   
+
+}
+.container{
+    display: flex;
+    
+}
+.luke{
+    color: white;
+    text-align: center;
+}
+.mestre{
+    color: white;
+    
+}
+.hist{
+    color: white;
+    font-size: 16px;
+    
+
+   
+}
+.his{
+    text-shadow: 5px 5px 5px rgb(0, 218, 18);
+}
+.mestl{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(0, 218, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+.dt{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(255, 5, 5);
+    text-decoration: none;
+   
+
+
+
+}
+.jedi1{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-shadow: 5px 5px 5px rgb(0, 225, 255);
+
+}
+.jedi1 img{
+    margin-left: 10px;
+}
+.tiltD{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(255, 5, 5);
+
+}
+.container2{
+    display: flex;
+    color: white;
+  
+
+
+}
+@keyframes rotate
+{
+    to
+    {
+        --angle: 360deg
+    }
+}
+@property --angle
+{
+
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.rainbow
+{
+
+}
+.poder{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(255, 5, 5);
+    /* --angle: 0deg;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    border-image: conic-gradient(from var(--angle) , rgb(255, 31, 31) , rgb(203, 18, 18) , rgb(132, 50, 50),red  ) 1;
+    border-radius: 10px;
+    width: 170px;
+    animation: 6s rotate linear infinite; */
+}
+.aprendi{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(255, 5, 5);
+}
+.container3{
+    display: flex;
+    color: white;
+}
+.container4{
+    display: flex;
+    color: white;
+}
+
+.btn-box-luke{
+    position: relative;
+    background: rgb(0, 0, 0);
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid white;
+    top: 5rem;
+    left: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    --angle: 0deg;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    border-image: conic-gradient(from var(--angle) , rgb(46, 255, 31) , rgb(18, 203, 89) , rgb(66, 132, 50),rgb(0, 255, 123)  ) 1;
+    border-radius: 10px;
+    width: 170px;
+    animation: 6s rotate linear infinite;
+    text-decoration: none;
+
+}
+
+.btn-box-darth a{
+    position: relative;
+    background: rgb(0, 0, 0);
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid white;
+    top: 5rem;
+    left: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    --angle: 0deg;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    border-image: conic-gradient(from var(--angle) , rgb(189, 6, 6) , rgb(255, 0, 0) , rgb(202, 5, 5),rgb(255, 64, 64)  ) 1;
+    border-radius: 10px;
+    width: 170px;
+    animation: 6s rotate linear infinite;
+    text-decoration: none;
+
+}
